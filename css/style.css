@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&display=swap');
+body {
+    background-image: url("../images/bg.jpg");
+    background-color: #363E4A;
+    font-family: 'Fontdiner Swanky', cursive;
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 1.5;
+}
+
+h1 {
+    font-family: 'Fontdiner Swanky', cursive;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 24px;
+    color: #D17149;
+}
+
+.container {
+    max-width: 320px;
+    margin: 0 auto;
+    padding: 20px 16px 40px 16px;
+    transform: translateZ(0);
+    text-align: center;
+}
+
+.form-footer {
+    margin-top: 2em;
+}
+
+.ui-input {
+    position: relative;
+    padding: 0;
+    border: 0;
+}
+
+.ui-input input {
+    font-family: 'Fontdiner Swanky', cursive;
+    border: 0;
+    background: none;
+    padding: 16px 0 16px 0;
+    font-size: 24px;
+    outline: 0;
+    width: 100%;
+    tap-highlight-color: rgba(255, 255, 255);
+    touch-callout: none;
+    text-align: center;
+}
+
+.ui-input input+label {
+    position: relative;
+    display: block;
+    padding: 8px 0 8px 0;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: .0875em;
+    font-weight: 500;
+    text-align: center;
+}
+
+.btn {
+    border: 0;
+    background-color: #50617A;
+    padding: 18px 30px;
+    font-size: 14px;
+    line-height: 1.5;
+    text-transform: uppercase;
+    letter-spacing: .0875em;
+    font-weight: 500;
+    color: #ffffff;
+    font-family: $base-font-family;
+    border-radius: 100px;
+    outline: 0;
+    transition: background-color $time $bezier, color $time $bezier;
+}
+
+.btn:focus,
+.btn:active,
+.btn:hover {
+    background-color: #6EB1FF;
+    color: white;
+}
