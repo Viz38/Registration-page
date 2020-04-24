@@ -66,7 +66,7 @@ h2 {
 
 .btn {
     border: 0;
-    background-color: #50617A;
+    background-color: rgb(209, 113, 73);
     padding: 18px 30px;
     font-size: 14px;
     line-height: 1.5;
@@ -74,7 +74,7 @@ h2 {
     letter-spacing: .0875em;
     font-weight: 500;
     color: #ffffff;
-    font-family: $base-font-family;
+    font-family: 'Fontdiner Swanky', cursive;
     border-radius: 100px;
     outline: 0;
     transition: background-color $time $bezier, color $time $bezier;
@@ -83,6 +83,6 @@ h2 {
 .btn:focus,
 .btn:active,
 .btn:hover {
-    background-color: #6EB1FF;
+    background-color: rgb(187, 113, 16);
     color: white;
 }
